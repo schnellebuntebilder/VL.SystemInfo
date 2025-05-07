@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Nodes to check and log memory consumption, GC- and process-information</description>
     <tags>VL, VVVV, Memory, Garbage Collection, Process, Information</tags>
-    <license type="expression">MIT-License</license>
+    <license type="expression">MIT</license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
   </metadata>
