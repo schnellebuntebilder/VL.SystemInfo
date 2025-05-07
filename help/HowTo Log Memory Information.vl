@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="FuDsu5l80bZLD10ljHKrrN" LanguageVersion="2025.7.0-0340-g1b1e5767de" Version="0.128">
+  <NugetDependency Id="BlMMcY6T829OH6uIsc1NZQ" Location="VL.CoreLib" Version="2025.7.0-0340-g1b1e5767de" />
+  <Patch Id="OWGdg3JRYmEOatnj0ER9xN">
+    <Canvas Id="DlljS1C17nKOTlbYQgWSEE" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="HKKhvPS3KzEMrAW7rOY3qp">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="CA77rBfSxETPffsQDjKHqO">
+        <Canvas Id="R1v0S4PUEirNpkmW70KrIY" CanvasType="Group">
+          <Node Bounds="103,230,84,19" Id="UNINeqh1WsYNO7PDPVRL1v">
+            <p:NodeReference LastCategoryFullName="MemoryInfo" LastDependency="VL.MemoryInfo.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="MemoryLogger" />
+            </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="QnRvXALgloaP0CFjfc0Qh2" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="GfGgqLQw74nQCMr5Dfe6mf" Name="LogMemory Interval" Kind="InputPin" />
+            <Pin Id="ClaLaKw4RxeO57r8HPzElV" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="VU40HyIJtYSNK89yOd1l5G" Comment="LogMemory Interval" Bounds="105,139,41,15" ShowValueBox="true" isIOBox="true" Value="10">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float64" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="OXxkUe68lLFMu5vwNMnKUG" Comment="" Bounds="105,390,592,103" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="G4tx1fMLA90QJcID4JGASi" Bounds="192,239,463,19" ShowValueBox="true" isIOBox="true" Value="if you want to log other things, have a look inside and make your own version">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="AKHnxtaAEnFNqPdNFrJr0N" Name="Create" />
+        <Patch Id="R77eftB39syOFtGq7s2Bk6" Name="Update" />
+        <ProcessDefinition Id="Bxe0HA1ZCEBNn66icyEYls">
+          <Fragment Id="BlWRrYlbYE0NUzs8EIGJPr" Patch="AKHnxtaAEnFNqPdNFrJr0N" Enabled="true" />
+          <Fragment Id="QWvBGKWDFI7O1OsWJgRFys" Patch="R77eftB39syOFtGq7s2Bk6" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="Fr2J8luOherNqCxOLrfBnF" Ids="VU40HyIJtYSNK89yOd1l5G,GfGgqLQw74nQCMr5Dfe6mf" />
+        <Link Id="GM9li8Zp6roLiLgOSY04as" Ids="ClaLaKw4RxeO57r8HPzElV,OXxkUe68lLFMu5vwNMnKUG" />
+      </Patch>
+    </Node>
+  </Patch>
+  <DocumentDependency Id="Lm8em8Upwz4NWbpdd5hDFq" Location="../VL.SystemInfo.vl" />
+</Document>
