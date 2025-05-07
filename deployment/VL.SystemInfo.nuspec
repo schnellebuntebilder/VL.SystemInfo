@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.SystemInfo</id>
+    <version>0.0.1</version>
+    <title><VL class="SystemInfo"></VL></title>
+    <authors>sebl</authors>
+    <projectUrl>https://github.com/schnellebuntebilder/VL.SystemInfo</projectUrl>
+    <repository type="git" url="git@github.com:schnellebuntebilder/VL.SystemInfo.git" />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Nodes to check and log memory consumption, GC- and process-information</description>
+    <tags>VL, VVVV, Memory, Garbage Collection, Process, Information</tags>
+    <license type="expression">MIT License</license>
+    <icon>icon\nugeticon.png</icon>
+    <readme>docs\README.md</readme>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\help\**" target="help\" exclude="" />
+    <file src="nugeticon.png" target="icon\" />
+    <file src="..\README.md" target="docs\" />
+  </files>
+</package>
