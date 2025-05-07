@@ -4,7 +4,7 @@
   <metadata>
     <id>VL.SystemInfo</id>
     <version>0.0.1</version>
-    <title><VL class="SystemInfo"></VL></title>
+    <title>SystemInfo</title>
     <authors>sebl</authors>
     <projectUrl>https://github.com/schnellebuntebilder/VL.SystemInfo</projectUrl>
     <repository type="git" url="git@github.com:schnellebuntebilder/VL.SystemInfo.git" />
