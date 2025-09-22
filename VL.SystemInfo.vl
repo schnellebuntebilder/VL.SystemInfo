@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Kv0PGZ5G6dSMi5FiTqMDHw" LanguageVersion="2025.7.0-0340-g1b1e5767de" Version="0.128">
-  <NugetDependency Id="GIuuWrnQAiDMf2vcFZP1CM" Location="VL.CoreLib" Version="2025.7.0-0340-g1b1e5767de" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Kv0PGZ5G6dSMi5FiTqMDHw" LanguageVersion="2025.7.0" Version="0.128">
+  <NugetDependency Id="GIuuWrnQAiDMf2vcFZP1CM" Location="VL.CoreLib" Version="2025.7.0" />
   <Patch Id="CRmV3gqrMS5PYeMKQP7k2w">
     <Canvas Id="VY5WmRZVPsZPvc8M4XCkQ0" DefaultCategory="SystemInfo" CanvasType="FullCategory">
       <!--
@@ -726,6 +726,7 @@
                 <Pin Id="Ivz7uJvGGS5OwD2Dmyv5KK" Name="Arguments" Kind="InputPin" />
                 <Pin Id="HRSOuhuH8BQMbhj1XYs82O" Name="Working Directory" Kind="InputPin" />
                 <Pin Id="M7meDDnVN9jNXHmbY7Xw5J" Name="Environment Path Variable" Kind="InputPin" IsHidden="true" />
+                <Pin Id="IOb2s5utnNqLo9PgABjyyK" Name="Run as Admin" Kind="InputPin" />
                 <Pin Id="IZBf2OBUxkWLVXYMEtyyGh" Name="Execute" Kind="InputPin" />
                 <Pin Id="Kq3pRpGYefTNJXLjFtVxwJ" Name="State Output" Kind="StateOutputPin" />
                 <Pin Id="Sw3LjyruSf2OARRGtaM1Ey" Name="Output" Kind="OutputPin" />
@@ -1209,6 +1210,7 @@
                 <Pin Id="PsoWyoU7hgcQIA9pnrDRz9" Name="Arguments" Kind="InputPin" />
                 <Pin Id="QyoFFssLZuaOPh28CzUgoI" Name="Working Directory" Kind="InputPin" />
                 <Pin Id="Ivh5doof9tmOHB5n0lBAVV" Name="Environment Path Variable" Kind="InputPin" IsHidden="true" />
+                <Pin Id="Ty0ZKjennWVLFzdjiPLpyW" Name="Run as Admin" Kind="InputPin" />
                 <Pin Id="JLI2f2akIPCNxicMt5Z9Pd" Name="Execute" Kind="InputPin" />
                 <Pin Id="HkaxGleapRZOW81lc0bUE0" Name="State Output" Kind="StateOutputPin" />
                 <Pin Id="PpX0L5NtPlRQGkAoXU7RP5" Name="Output" Kind="OutputPin" />
