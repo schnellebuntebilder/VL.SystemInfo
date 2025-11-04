@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="CA77rBfSxETPffsQDjKHqO">
         <Canvas Id="R1v0S4PUEirNpkmW70KrIY" CanvasType="Group">
-          <Node Bounds="457,260,70,19" Id="UKQVWDP3tkEOGFuD7PwhKe">
+          <Node Bounds="303,400,70,19" Id="UKQVWDP3tkEOGFuD7PwhKe">
             <p:NodeReference LastCategoryFullName="SystemInfo" LastDependency="VL.SystemInfo.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MemLogger" />
@@ -24,11 +24,76 @@
             <Pin Id="JkmOHqh128FMTvpN4xlEdT" Name="Result" Kind="OutputPin" />
             <Pin Id="NZJMeC9tTBbQcdcvP5ySDT" Name="Interval" Kind="InputPin" />
           </Node>
-          <Pad Id="JGOwRrs2z8ANOVy3B0ZWNV" Comment="" Bounds="459,329,663,38" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="CP5edhcY3yuQWVGIN3CNBl" Comment="Interval" Bounds="459,220,40,15" ShowValueBox="true" isIOBox="true" Value="10">
+          <Pad Id="JGOwRrs2z8ANOVy3B0ZWNV" Comment="" Bounds="305,469,663,38" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="CP5edhcY3yuQWVGIN3CNBl" Comment="Interval" Bounds="305,360,40,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float64" />
             </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="835,130,245,19" Id="VLyiNWK6w2cMZJg66JeObP">
+            <p:NodeReference LastCategoryFullName="Video" LastDependency="VL.Stride.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ImagePlayer (Stride)" />
+            </p:NodeReference>
+            <Pin Id="TyYzJmn9IbTNyfuulWu2v6" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LPt5UfGqNzHNBC0LSObTRR" Name="Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="U9m6PC7IuKvPOUAo5s6cfb" Name="New Clock" Kind="InputPin" IsHidden="true" />
+            <Pin Id="GC4pPr9hCS6QaeZuPyzo2U" Name="Directory" Kind="InputPin" />
+            <Pin Id="BIMplYlmt4oLjbq9SsU5he" Name="Search Pattern" Kind="InputPin" />
+            <Pin Id="S3wjIM2ZKa5OqmbWDHUvdm" Name="Rescan Directory" Kind="InputPin" />
+            <Pin Id="NI7IkOdXpqfPlqTCNyKXw0" Name="Movie FPS" Kind="InputPin" />
+            <Pin Id="Fum1YRUVowKPhjiAspQspO" Name="Display FPS" Kind="InputPin" />
+            <Pin Id="RLjhcKXz5FPOXKzmH4iP86" Name="Preload Count" Kind="InputPin" />
+            <Pin Id="SAhxB4u2xCTQCW2m6Hcx1C" Name="Rate" Kind="InputPin" />
+            <Pin Id="LHYZ0UNTrFvM0m7i5hNdkH" Name="Play" Kind="InputPin" />
+            <Pin Id="LWpvia3RJa1QCJrTIYxi9o" Name="Seek" Kind="InputPin" />
+            <Pin Id="D6ahGzKls70LS9luk2UulN" Name="Seek Time" Kind="InputPin" />
+            <Pin Id="LxibiFJwZvXOcrSNVy84JS" Name="Loop" Kind="InputPin" />
+            <Pin Id="PoMDGtcDdcAOqfafjX2HJx" Name="Loop Start Time" Kind="InputPin" />
+            <Pin Id="P1aYw6J7wARLX7ZZMwoNnL" Name="Loop End Time" Kind="InputPin" />
+            <Pin Id="AZzfY0gMVJiOn2mJOLeFIM" Name="Output" Kind="OutputPin" />
+            <Pin Id="IdioSUHIf8MNas33dSE4uy" Name="On Scanning Complete" Kind="OutputPin" />
+            <Pin Id="LfHDGaWCtW3PsKT0dDYlo4" Name="Position" Kind="OutputPin" />
+            <Pin Id="G3pgC5zX0O6Nfd5ML1rTO2" Name="Duration" Kind="OutputPin" />
+            <Pin Id="JoRrFfCKOFiLeXzpbrwLZa" Name="Sync" Kind="InputPin" IsHidden="true" />
+            <Pin Id="TBoBx5DfhMHMFyegkkK9Vg" Name="Displayed Frame" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="Bq5FKFqD0rgM1vMpL6WkgT" Name="Frame Count" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="II4TdM5CjIKL4wtguTYJVc" Name="Preloaded Frames" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="CkTHeXLRVwSMLVqAFZFAxy" Comment="Directory" Bounds="837,41,125,15" ShowValueBox="true" isIOBox="true" Value="C:\projects\HDGDA25\HDGDA25-WBDG\HDGDA25-Common\assets\251016_WBDG_DBTDG_0x7">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:pathtype p:Assembly="VL.Core" p:Type="VL.Core.PathType">Directory</p:pathtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="CjKtLWlCx89LLB6lroSgSS" Comment="" Bounds="837,170,190,132" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="OuZ4aQ64aGRLdVHpnxuBjq" Comment="Play" Bounds="977,81,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Qzwdovk7p0AOTvI7BkJwEC" Comment="Preload Count" Bounds="937,60,35,15" ShowValueBox="true" isIOBox="true" Value="20">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="OEjskeHHuhgOIrpFuPkJzx" Comment="Display FPS" Bounds="698,80,35,15" ShowValueBox="true" isIOBox="true" Value="60">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="O2yi1iyeMxKNPZm4YVM7lV" Comment="Loop" Bounds="1096,90,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
           </Pad>
         </Canvas>
         <Patch Id="AKHnxtaAEnFNqPdNFrJr0N" Name="Create" />
@@ -39,6 +104,13 @@
         </ProcessDefinition>
         <Link Id="CLa1lVXGqRoLSB5fCmwrQt" Ids="JkmOHqh128FMTvpN4xlEdT,JGOwRrs2z8ANOVy3B0ZWNV" />
         <Link Id="OVzd5bG4msAMYUjMeJib8w" Ids="CP5edhcY3yuQWVGIN3CNBl,NZJMeC9tTBbQcdcvP5ySDT" />
+        <Link Id="TsO7oQfawk1PYXaCf2jEe7" Ids="CkTHeXLRVwSMLVqAFZFAxy,GC4pPr9hCS6QaeZuPyzo2U" />
+        <Link Id="FMS0pramHw8NFFumzKHupd" Ids="AZzfY0gMVJiOn2mJOLeFIM,CjKtLWlCx89LLB6lroSgSS" />
+        <Link Id="PDTObjeaILILMz1yaUugFb" Ids="OuZ4aQ64aGRLdVHpnxuBjq,LHYZ0UNTrFvM0m7i5hNdkH" />
+        <Link Id="GGMqoXnoP0jMeUWL7e0x1a" Ids="Qzwdovk7p0AOTvI7BkJwEC,RLjhcKXz5FPOXKzmH4iP86" />
+        <Link Id="BwDryHbQaXBMaw7t25aX4X" Ids="OEjskeHHuhgOIrpFuPkJzx,Fum1YRUVowKPhjiAspQspO" />
+        <Link Id="Ey34FiEM0KnOXxESxVW5ZH" Ids="OEjskeHHuhgOIrpFuPkJzx,NI7IkOdXpqfPlqTCNyKXw0" />
+        <Link Id="NWMVspZGJq8NoXqfG3c599" Ids="O2yi1iyeMxKNPZm4YVM7lV,LxibiFJwZvXOcrSNVy84JS" />
       </Patch>
     </Node>
   </Patch>
