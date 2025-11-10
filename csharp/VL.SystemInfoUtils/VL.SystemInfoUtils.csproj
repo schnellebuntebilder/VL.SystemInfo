@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="SharpDX.DXGI" Version="4.2.0" />
-    <PackageReference Include="VL.Core" Version="2025.7.0" />
+    <PackageReference Include="VL.Core" Version="2025.7.0-sbb-0007-g8aa90fc421" />
   </ItemGroup>
 
   <ItemGroup>

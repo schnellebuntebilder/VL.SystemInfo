@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Kv0PGZ5G6dSMi5FiTqMDHw" LanguageVersion="2025.7.0" Version="0.128">
-  <NugetDependency Id="GIuuWrnQAiDMf2vcFZP1CM" Location="VL.CoreLib" Version="2025.7.0" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Kv0PGZ5G6dSMi5FiTqMDHw" LanguageVersion="2025.7.0-sbb-0007-g8aa90fc421" Version="0.128">
+  <NugetDependency Id="GIuuWrnQAiDMf2vcFZP1CM" Location="VL.CoreLib" Version="2025.7.0-sbb-0007-g8aa90fc421" />
   <Patch Id="CRmV3gqrMS5PYeMKQP7k2w">
     <Canvas Id="VY5WmRZVPsZPvc8M4XCkQ0" DefaultCategory="SystemInfo" CanvasType="FullCategory">
       <!--
@@ -1903,11 +1903,6 @@
             <Patch Id="CMqste7SmdKQFRk4mF5V9T" Name="Update">
               <Pin Id="Vp85H1k8coiPHXdFQqYdmw" Name="Dedicated Video Memory" Kind="OutputPin" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="IcnWMk3dyGGMWFQjnFAsEk">
               <Fragment Id="LtHS9Bkp8NSO4O7Q7JJhUf" Patch="V5gmTUXFJryMidri6CDZqn" Enabled="true" />
               <Fragment Id="Bnde7nw8aDtOunm9oPwwse" Patch="CMqste7SmdKQFRk4mF5V9T" Enabled="true" />
@@ -2122,11 +2117,6 @@
             <Pin Id="NtbNpa5NeAhOAT0j2z5e0x" Name="Result" Kind="OutputPin" />
             <Pin Id="KhxVzPQyNVzMcWpdPDJbFD" Name="Interval" Kind="InputPin" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="Bc8kDG1uiorL4IrTB7sgKH">
             <Fragment Id="M6KTPjcjmyPMwWPH5oMoGT" Patch="N5texrFd9xzONMDriOJgS8" Enabled="true" />
             <Fragment Id="NtjbLF0oGrpQMYdDqiYIWb" Patch="ScVtK3l4dAnPofaSvGjIjh" Enabled="true" />
@@ -2175,8 +2165,8 @@
   </Patch>
   <PlatformDependency Id="Q9I2ecWajRPMqnHKT2CotM" Location="System.Diagnostics.Process" />
   <PlatformDependency Id="SJN9MGkRYGCNxTo7Jwg2US" Location="System.Runtime" />
-  <PlatformDependency Id="BYD6EbMCMb3M5GDEtWVVl2" Location="C:/vvvv/vvvv_gamma_7.0-win-x64/packs/dependencies/SharpDX.DXGI.dll" />
+  <PlatformDependency Id="BYD6EbMCMb3M5GDEtWVVl2" Location="../../../vvvv/vvvv_gamma_7.0-win-x64/packs/dependencies/SharpDX.DXGI.dll" />
   <PlatformDependency Id="ErIcGAxibBjNjhEPyEPpfR" Location="System" />
-  <PlatformDependency Id="F8kCRFGCrfkNtx5lOceJQY" Location="C:/vvvv/vvvv_gamma_7.0-win-x64/packs/dependencies/SharpDX.dll" />
+  <PlatformDependency Id="F8kCRFGCrfkNtx5lOceJQY" Location="../../../vvvv/vvvv_gamma_7.0-win-x64/packs/dependencies/SharpDX.dll" />
   <ProjectDependency Id="DUHEGBA75keNH501uYnWKy" Location="./csharp/VL.SystemInfoUtils/VL.SystemInfoUtils.csproj" />
 </Document>
