@@ -2111,11 +2111,13 @@
             <Pad Id="KzNM0NHmnIYOd6sOu8CUi2" Comment="" Bounds="619,680,452,54" ShowValueBox="true" isIOBox="true" />
             <ControlPoint Id="FkTkAD8AMj2NWQNs4xjvsF" Bounds="639,660" />
             <ControlPoint Id="J0yNJPWF9FGL8XSXsiQZDt" Bounds="619,240" />
+            <ControlPoint Id="EPkJXScbCFhNWA3Yh4Hlih" Bounds="860,310" />
           </Canvas>
           <Patch Id="N5texrFd9xzONMDriOJgS8" Name="Create" />
           <Patch Id="ScVtK3l4dAnPofaSvGjIjh" Name="Update">
             <Pin Id="NtbNpa5NeAhOAT0j2z5e0x" Name="Result" Kind="OutputPin" />
             <Pin Id="KhxVzPQyNVzMcWpdPDJbFD" Name="Interval" Kind="InputPin" />
+            <Pin Id="G8GHP4sGEBoLkavzdHR1cZ" Name="log" Kind="InputPin" />
           </Patch>
           <ProcessDefinition Id="Bc8kDG1uiorL4IrTB7sgKH">
             <Fragment Id="M6KTPjcjmyPMwWPH5oMoGT" Patch="N5texrFd9xzONMDriOJgS8" Enabled="true" />
@@ -2139,6 +2141,9 @@
           <Link Id="IhPynFLkpMLN2wZPDCegAg" Ids="FkTkAD8AMj2NWQNs4xjvsF,NtbNpa5NeAhOAT0j2z5e0x" IsHidden="true" />
           <Link Id="TvEwR0EAZ9aNjEWv3Y97PD" Ids="J0yNJPWF9FGL8XSXsiQZDt,PiZOEmlsnKOMVwxEKzQtA0" />
           <Link Id="Rm8IkXR4G43QO2vKDTQDaB" Ids="KhxVzPQyNVzMcWpdPDJbFD,J0yNJPWF9FGL8XSXsiQZDt" IsHidden="true" />
+          <Link Id="FEQxGS3M44GPGaEhnU614r" Ids="EPkJXScbCFhNWA3Yh4Hlih,KcF41p7SuJkOPMcub1dmmB" />
+          <Link Id="NLZvywj2kd1M5kOIB8gRgP" Ids="G8GHP4sGEBoLkavzdHR1cZ,EPkJXScbCFhNWA3Yh4Hlih" IsHidden="true" />
+          <Link Id="Mtx2O5yhWORPeIR0vKFJGS" Ids="EPkJXScbCFhNWA3Yh4Hlih,Lb0yP7KYTwcPYAtNBwdDTT" />
         </Patch>
       </Node>
     </Canvas>
