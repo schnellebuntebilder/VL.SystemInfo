@@ -1,22 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="SharpDX.DXGI" Version="4.2.0" />
-    <PackageReference Include="VL.Core" Version="2025.7.0-sbb-0007-g8aa90fc421" />
+    <PackageReference Include="VL.Core" Version="2025.7.0-sbb-0009-g1cbce35734" />
   </ItemGroup>
-
   <ItemGroup>
     <Using Include="VL.Core" />
     <Using Include="VL.Core.Import" />
     <Using Include="VL.Lib.Collections" />
     <Using Include="Stride.Core.Mathematics" />
   </ItemGroup>
-
 </Project>
